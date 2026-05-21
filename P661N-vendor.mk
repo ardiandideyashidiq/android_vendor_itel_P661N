@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/itel/P661N/proprietary/recovery/root/vendor/firmware/soc2_2_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/soc2_2_ram_wifi_1_1_hdr.bin \
     vendor/itel/P661N/proprietary/recovery/root/vendor/firmware/soc2_2_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/soc2_2_ram_wifi_1a_1_hdr.bin \
     vendor/itel/P661N/proprietary/recovery/root/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/wifi.cfg \
+    vendor/itel/P661N/proprietary/system/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/itel/P661N/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/itel/P661N/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/itel/P661N/proprietary/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/030c0000000000000000000000000000.drbin \
@@ -782,6 +783,7 @@ PRODUCT_PACKAGES += \
     libem_audio_jni \
     libem_support_jni \
     libem_wifi_jni \
+    libshowlogo \
     libaedv \
     libbwc \
     libcustom_nvram \
@@ -1412,6 +1414,7 @@ PRODUCT_PACKAGES += \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
+    kpoc_charger \
     ccci_mdinit \
     ccci_rpcd \
     fuelgauged \
