@@ -790,7 +790,6 @@ PRODUCT_PACKAGES += \
     libem_support_jni \
     libem_wifi_jni \
     libshowlogo \
-    libaedv \
     libbwc \
     libcustom_nvram \
     libcvsd_mtk \
