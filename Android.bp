@@ -7,6 +7,7 @@ soong_namespace {
         "hardware/mediatek",
         "hardware/mediatek/libmtkperf_client",
         "device/itel/P661N",
+        "hardware/mediatek/libaedv",
     ],
 }
 
