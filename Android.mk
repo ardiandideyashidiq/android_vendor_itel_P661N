@@ -8,7 +8,7 @@ ifeq ($(TARGET_DEVICE),P661N)
 
 $(call add-radio-file-sha1-checked,radio/dpm.img,ef9ad6c0ed7ea1b40614ee7d41cea06b78b8a978)
 $(call add-radio-file-sha1-checked,radio/gz.img,1be54ebb8b661532d4e5b1a4d409e7fcba6b42d8)
-$(call add-radio-file-sha1-checked,radio/lk.img,040bb0ffaac1a61b8d729f456834f698aae785a7)
+$(call add-radio-file-sha1-checked,radio/lk.img,c10b8313c7c5531e76664d3e84c7ec98c7cf3cf9)
 $(call add-radio-file-sha1-checked,radio/logo.img,a4009108ffd2c3b2e7dcb15bb5fff5007f3eb1e7)
 $(call add-radio-file-sha1-checked,radio/mcupm.img,fdd973914726725ba19465d999ad8a9e868a018a)
 $(call add-radio-file-sha1-checked,radio/md1img.img,f8efbd0770a02329979fed2db68487d7928e6f86)
