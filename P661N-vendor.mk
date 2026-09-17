@@ -779,10 +779,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/P661N/proprietary/vendor/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta
 
 PRODUCT_PACKAGES += \
-    libem_aoltest_jni \
-    libem_audio_jni \
-    libem_support_jni \
-    libem_wifi_jni \
     libshowlogo \
     libbwc \
     libcustom_nvram \
@@ -1363,10 +1359,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.engineermode@1.0 \
-    vendor.mediatek.hardware.engineermode@1.1 \
-    vendor.mediatek.hardware.engineermode@1.2 \
-    vendor.mediatek.hardware.engineermode@1.3 \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.mmagent@1.0 \
@@ -1407,7 +1399,6 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     libaudiotoolkit \
-    EngineerMode \
     android.hardware.biometrics.fingerprint@2.1-service.transsion.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     gnss@2.1-service.xml \
