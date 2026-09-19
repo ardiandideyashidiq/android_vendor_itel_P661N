@@ -744,7 +744,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/P661N/proprietary/vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc \
     vendor/itel/P661N/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/itel/P661N/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/itel/P661N/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/itel/P661N/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/itel/P661N/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/itel/P661N/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
@@ -789,7 +788,6 @@ PRODUCT_PACKAGES += \
     libion_mtk \
     libion_ulit \
     libipsec_ims_shr \
-    libladder \
     libmtcloader \
     libmtkcutils \
     libmtklimiter_vendor \
@@ -1171,7 +1169,7 @@ PRODUCT_PACKAGES += \
     libfeature_rss \
     libfeatureiodrv_mem \
     libforkexecwrap \
-    libformatter \
+    libformatter_mtk \
     libgamehdr \
     libged \
     libgf_ca \
@@ -1205,7 +1203,7 @@ PRODUCT_PACKAGES += \
     libmmagent \
     libmml \
     libmnetlink_v104 \
-    libmnl \
+    libmnl_mtk \
     libmp3dec_mtk \
     libmpbase \
     libmsnr \
@@ -1444,7 +1442,6 @@ PRODUCT_PACKAGES += \
     v3avpud \
     volte_clientapi_ua \
     volte_rcs_ua \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader
 
